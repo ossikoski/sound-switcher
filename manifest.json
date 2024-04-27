@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Sound switcher",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabGroups"],
+  "commands": {
+    "_execute_action": {
+        "suggested_key": {
+            "default": "Ctrl+Shift+Y"
+        }
+    }
+  }
+}
